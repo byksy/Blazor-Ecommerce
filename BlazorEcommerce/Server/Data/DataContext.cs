@@ -26,7 +26,7 @@
                    {
                        Id = 3,
                        Name = "Video Games",
-                       Url = "ideo-games"
+                       Url = "video-games"
                    }
                 );
             modelBuilder.Entity<Product>().HasData(
