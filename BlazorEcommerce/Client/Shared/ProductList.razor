@@ -21,6 +21,10 @@ else
                     <h4 class="mb-0">@product.Title</h4>
                 </a>
                 <p>@product.Description</p>
+                @if (@product.OriginalPrice > product.Price)
+                {
+                   <h6 class="text-muted text-decoration-line-through"> $@product.OriginalPrice</h6>
+                }
                 <h5 class="price">
                     $@product.Price
                 </h5>
